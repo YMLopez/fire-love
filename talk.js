@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
+        modal('我就知道妮妮你一定会愿意的。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -22,7 +22,7 @@ function B() {
 }
 
 function C() {
-    modal('请您不要拒绝我', D);
+    modal('请你不要拒绝我', D);
 }
 
 function D() {
@@ -38,11 +38,11 @@ function F() {
 }
 
 function G() {
-    modal('房产证上写你名', H);
+    modal('一起开黑，我辅助你AD，我保护你！', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('我会好好疼你！', I);
 }
 
 function I() {
@@ -50,7 +50,7 @@ function I() {
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('行，我们有空就去开黑吧！', function() {
         fireworks();
     });
 }
